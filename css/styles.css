@@ -1,7 +1,7 @@
 .container h1{
   text-align: center;
-  margin-bottom: 4%;
-  margin-top: 4%;
+  margin-bottom: 5%;
+  margin-top: 5%;
   font-weight: bold;
   letter-spacing: 2pt;
 
@@ -11,10 +11,27 @@
   font-size: 12pt;
   font-family: helvetica;
   letter-spacing: 1pt;
+  margin: 3%;
 }
 
 div.languages div{
   margin:5%;
   text-align: center;
   display: none;
+  border: solid;
+  border-color: silver;
+}
+
+header {
+  color: gray;
+  font-size: 60px;
+  border: 1px solid grey;
+  padding: 2px;
+  margin: 10px;
+  float: left;
+
+}
+
+img {
+  float: top;
 }
