@@ -20,7 +20,7 @@ $(document).ready(function() {
       $(".languages #reactinfo").hide();
     } else {
     $(".languages #information").show();
-}
+    }
     if (react === "Most Likely") {
         $(".languages #reactinfo").toggle();
         $(".languages #cinfo").hide();
