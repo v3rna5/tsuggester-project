@@ -1,15 +1,13 @@
 .container h1{
   text-align: center;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  font-weight: bold;
+  margin-bottom: 4%;
+  margin-top: 4%;
   letter-spacing: 2pt;
 
 }
 
 .form-group{
   font-size: 12pt;
-  font-family: helvetica;
   letter-spacing: 1pt;
   margin: 3%;
 }
