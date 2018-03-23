@@ -15,10 +15,14 @@ $(document).ready(function() {
       $(".languages #reactinfo").hide();
     }
 
+
     if (react === "Most Likely") {
         $(".languages #reactinfo").toggle();
         $(".languages #cinfo").hide();
         $(".languages #javascriptinfo").hide();
+      }else {
+
+            $(".languages #information").show();
       }
 
     if (csharp === "Most Likely") {
@@ -26,9 +30,9 @@ $(document).ready(function() {
       $(".languages #reactinfo").hide();
       $(".languages #javascriptinfo").hide();
 
-    }
-    if (javascript === "Most Likely" + react ==="Most Likely" + csharp ==="Most Likely") {
-      alert("Please visit our store");
+    } else {
+
+          $(".languages #information").show();
     }
 
 
