@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Tracker Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Program Languages Survey</h1>
+
+    <form>
+
+      <div class="form-group">
+        <label for="InputHobby">What languages do you use when developing as a hobby or for fun?</label>
+        <input type="hobbyinfo" class="form-control" id="hobby" placeholder="">
+      </div>
+
+      <div class="form-group">
+        <label for="SelectJavascript">Would you choose Javascript for a new project you are working on?</label>
+        <select class="form-control" id="jproject">
+          <option>Most Likely</option>
+          <option>Maybe</option>
+          <option>Absolutely Not</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="SelectC">Would you choose C# for a new project you are working on?</label>
+        <select class="form-control" id="cproject">
+          <option>Most Likely</option>
+          <option>Maybe</option>
+          <option>Absolutely Not</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+      <label for="SelectReact">Would you choose React for a new project you are working on?</label>
+      <select class="form-control" id="reactproject">
+        <option>Most Likely</option>
+        <option>Maybe</option>
+        <option>Absolutely Not</option>
+      </select>
+
+
+
+      <div class="form-group">
+        <label for="firstlast">Name</label>
+        <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder=""></input>
+      </div>
+      </div>
+     <button type="submit" class="btn btn-primary">Submit</button>
+   </form>
+  </div>
+
+
+
+   <div class="languages">
+    <div id="javascriptinfo">
+     <p><center>Jennifer Lopez</center></p>
+     <img src="img/jlo.jpg" width="300px;">
+    </div>
+    <br>
+    <div id="cinfo">
+     <p><center>Tom Hardy</center></p>
+     <img src="img/tomhardy.jpg" width="300px;">
+    </div>
+    <br>
+    <div id="reactinfo">
+     <p><center>Kim Kardashian</center></p>
+     <img src="img/kimk.jpg" width="300px;">
+    </div>
+    <br>
+
+   </div>
+
+
+  </body>
+</html>

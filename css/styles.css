@@ -1,0 +1,20 @@
+.container h1{
+  text-align: center;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  font-weight: bold;
+  letter-spacing: 2pt;
+
+}
+
+.form-group{
+  font-size: 12pt;
+  font-family: helvetica;
+  letter-spacing: 1pt;
+}
+
+div.languages div{
+  margin:5%;
+  text-align: center;
+  display: none;
+}
